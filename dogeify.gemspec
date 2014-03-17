@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Dogeify::VERSION
   spec.authors       = ["skellz"]
   spec.email         = ["sherwin.kelly@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = "Dogeifys input"
+  spec.description   = "Adds words from the doge meme to a string."
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "engtagger"
 end
